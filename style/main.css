@@ -22,4 +22,61 @@ h4 {
 body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 16px;
+}
+
+input {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  width: 375px;
+  height: 136px;
+  background-image: url(/assets/mobile/bg-pattern-header.svg);
+  position: relative;
+}
+header a {
+  position: relative;
+  top: 29px;
+  left: 24px;
+}
+
+nav {
+  position: absolute;
+  width: 327px;
+  height: 80px;
+  left: 24px;
+  top: 96px;
+  background-color: #FFFFFF;
+  display: flex;
+  border-radius: 10px;
+}
+nav input {
+  height: 80px;
+  width: 160px;
+  border: 0;
+  margin-left: 24px;
+}
+nav input:focus {
+  outline: none;
+}
+nav a {
+  position: absolute;
+  left: 66.97%;
+  right: 26.92%;
+  top: 37.5%;
+  bottom: 37.5%;
+}
+nav .search {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 263px;
+  top: 16px;
+}
+nav .search img {
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
