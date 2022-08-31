@@ -54,3 +54,31 @@ nav{
     }
     
 }
+.content{
+    padding-top: 64px;
+    display:flex;
+    flex-direction: column;
+    .box1{
+        padding-left: 32px;
+        padding-bottom: 32px;
+        h4{
+            color: $violet;
+        }
+        p{
+            color: $darkgrey;
+        }
+    }
+   
+}
+button{
+    background-color: $violet;
+    width:141px ;
+    height:48px ;
+    color: $white;
+    position: absolute;
+    left: 117px;
+    top: 450px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bold;
+}
