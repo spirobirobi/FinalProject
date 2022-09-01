@@ -99,11 +99,16 @@ nav .search img {
 }
 .content .box1 p {
   color: #6E8098;
+  margin: 0;
 }
 .content .box1 img {
   width: 50px;
   height: 50px;
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+.content .box1 h2 {
+  margin: 15px 0;
 }
 
 button {
