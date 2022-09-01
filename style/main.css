@@ -28,6 +28,10 @@ input {
   font-family: "Kumbh Sans", sans-serif;
 }
 
+button {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -79,4 +83,33 @@ nav .search {
 }
 nav .search img {
   border-radius: 10px;
+}
+
+.content {
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.content .box1 {
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
+.content .box1 h4 {
+  color: #5964e0;
+}
+.content .box1 p {
+  color: #6E8098;
+}
+
+button {
+  background-color: #5964e0;
+  width: 141px;
+  height: 48px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 117px;
+  top: 450px;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
