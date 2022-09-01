@@ -3,9 +3,14 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#132034;}
-	.st1{fill:#73C6A3;}
+	.st0{fill:#4058A7;}
+	.st1{fill:#596FB5;}
+	.st2{opacity:0.3235;fill:#B7C2E3;enable-background:new    ;}
 </style>
 <rect class="st0" width="50" height="50"/>
-<circle class="st1" cx="24.64" cy="24.74" r="12"/>
+<circle class="st1" cx="29.64" cy="24.74" r="10"/>
+<circle class="st1" cx="19.64" cy="24.74" r="10"/>
+<g>
+	<circle class="st2" cx="29.64" cy="24.74" r="10"/>
+</g>
 </svg>
