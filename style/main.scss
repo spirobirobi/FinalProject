@@ -1,7 +1,9 @@
 @import "colors";
 @import "typeography";
-body{
+*{
     margin:0;
+    box-sizing: border-box;
+    padding: 0;
 }
 header{
     

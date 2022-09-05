@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+input {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 375px;
+  height: 136px;
+  background-image: url(/assets/mobile/bg-pattern-header.svg);
+  position: relative;
+}
+header a {
+  position: relative;
+  top: 29px;
+  left: 24px;
+}
+header .container {
+  position: absolute;
+  width: 327px;
+  height: 230px;
+  left: 24px;
+  top: 96px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 2;
+  background-color: #FFFFFF;
+}
+header .container img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 139px;
+  bottom: 210px;
+  border-radius: 15px;
+}
+header .container h3 {
+  margin: 0;
+  padding-top: 40px;
+  color: #121721;
+}
+header .container h4 {
+  color: #5964e0;
+}
+header .container p {
+  color: #6E8098;
+  padding-bottom: 24px;
+}/*# sourceMappingURL=main2.css.map */
