@@ -1,0 +1,54 @@
+@import "colors";
+@import "typeography";
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    width:375px;
+    height: 136px;
+    background-image: url(/assets/mobile/bg-pattern-header.svg);
+    position: relative;
+    a{
+        position: relative;
+        top: 29px;
+        left: 24px;
+    }
+    .container{
+            position: absolute;
+        width: 327px;
+        height: 230px;
+        left: 24px;
+        top: 96px;
+        border-radius: 10px;
+    text-align: center;
+    z-index: 2;
+    background-color: $white;
+        img{
+           
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 139px;
+            bottom: 210px;
+            border-radius: 15px;
+            
+
+
+        }
+        h3{
+            margin: 0;
+            padding-top: 40px;
+            color: $midnight;
+        }
+        h4{
+            color: $violet;
+        }
+        p{
+            color: $darkgrey;
+            padding-bottom: 24px;
+        }
+
+    }  }
