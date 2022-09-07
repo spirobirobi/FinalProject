@@ -92,38 +92,44 @@ nav .search img {
 .content {
   padding-top: 64px;
   display: flex;
+  gap: 60px;
   flex-direction: column;
 }
-.content .box1 {
+.content .box {
   padding-left: 32px;
-  padding-bottom: 32px;
 }
-.content .box1 h4 {
+.content .box h4 {
   color: #5964e0;
+  padding-top: 44px;
+  font-weight: bold;
 }
-.content .box1 p {
+.content .box p {
   color: #6E8098;
   margin: 0;
 }
-.content .box1 img {
+.content .box img {
   width: 50px;
   height: 50px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.content .box1 h2 {
+.content .box h2 {
   margin: 15px 0;
 }
 
-button {
+footer {
+  margin-top: 32px;
+  padding-bottom: 62px;
+  position: relative;
+}
+footer button {
   background-color: #5964e0;
+  font-weight: bold;
   width: 141px;
   height: 48px;
   color: #FFFFFF;
-  position: absolute;
-  left: 117px;
-  top: 450px;
   border: 0;
   border-radius: 8px;
-  font-weight: bold;
+  position: absolute;
+  left: 117px;
 }/*# sourceMappingURL=main.css.map */
