@@ -16,39 +16,70 @@ header{
         top: 29px;
         left: 24px;
     }
-    .container{
-            position: absolute;
-        width: 327px;
-        height: 230px;
-        left: 24px;
-        top: 96px;
-        border-radius: 10px;
-    text-align: center;
+}
+.container{
+    width: 327px;
+    height: 230px;
+    margin: 0px;
+    border-radius: 10px;
+    position: absolute;
+    left: 24px;
+    top: 96px;
     z-index: 2;
     background-color: $white;
-        img{
-           
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            left: 139px;
-            bottom: 210px;
-            border-radius: 15px;
-            
+    text-align: center;
 
-
-        }
-        h3{
-            margin: 0;
-            padding-top: 40px;
-            color: $midnight;
-        }
-        h4{
-            color: $violet;
-        }
-        p{
-            color: $darkgrey;
-            padding-bottom: 24px;
-        }
-
-    }  }
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 16px;
+        position:relative;
+        bottom: 30px;
+        
+    }
+    h3{
+        margin-bottom: 10px;
+    }
+    p{
+       color: $grey;
+       margin-bottom: 24px;
+    }
+    h4{
+        color: $violet;
+    }
+}
+.content{
+    text-align: left;
+    p{
+        margin: 0;
+        margin-top: 64px;
+        color: $darkgrey;
+    }
+    h3{
+        margin: 0;
+        padding-top:10px;
+        padding-bottom:10px;
+       
+    }
+    h4{
+        padding-bottom: 50px;
+    }
+    button{
+        color: $white;
+        width:279px;
+        height: 48px;
+        background-color: $violet;
+        border: 0;
+        border-radius: 10px;
+        margin-left: 25px;
+    }
+    .text{
+            p{
+                margin: 25px;
+            }
+            h3{
+                padding: 0;
+                margin-top: 32px;
+            }
+    }
+}
