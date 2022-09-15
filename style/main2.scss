@@ -76,10 +76,66 @@ header{
     .text{
             p{
                 margin: 25px;
+                padding-bottom: 7px;
             }
             h3{
                 padding: 0;
                 margin-top: 32px;
+                padding-left: 20px;
             }
+            
+              
+           ul{
+            padding-left: 40px;
+            li{
+                color: $violet;
+                padding-bottom: 8px;
+                li::marker{
+                    padding-left:10px;
+                }
+                span{
+                    color: $grey;
+                    padding-bottom: 8px;
+                    
+                }
+               }
+           }
+           ol{
+            padding-left: 25px;
+            list-style: decimal inside none;
+            padding-bottom: 129px;
+            
+            li{
+                color: $violet;
+                font-weight: bold;
+                padding-bottom: 8px;
+                
+                }
+                
+                span{
+                    color: $grey;
+                    font-weight: normal;
+                    padding-bottom: 8px;
+                    padding-left: 15px;
+                    text-align: center;
+                    
+                }
+                
+            }
+
+           }
+
+            
     }
-}
+    footer{
+        button{
+            color: $white;
+        width:327px;
+        height: 48px;
+        background-color: $violet;
+        border: 0;
+        border-radius: 10px;
+        margin-bottom: 23px;
+        
+        }
+    }
