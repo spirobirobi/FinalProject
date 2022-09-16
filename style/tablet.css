@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+input {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 370px) and (max-width: 768px) {
+  header {
+    background-image: url(/assets/tablet/bg-pattern-header.svg);
+    width: 768px;
+    height: 160px;
+  }
+  nav {
+    width: 689px;
+    height: 80px;
+    display: flex;
+  }
+  nav a {
+    display: none;
+  }
+  nav input.location {
+    display: block;
+  }
+  nav .check {
+    display: flex;
+    align-items: center;
+  }
+  nav .check input {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    position: relative;
+    left: 90px;
+  }
+  nav .check h4 {
+    color: #121721;
+    width: 68px;
+    height: 16px;
+    position: relative;
+    left: 100px;
+  }
+  nav .check button {
+    width: 80px;
+    height: 48px;
+    background-color: #5964e0;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 6px;
+    position: relative;
+    left: 125px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 56px;
+    gap: 11px;
+  }
+  .content .box {
+    width: 339px;
+    height: 253px;
+    box-sizing: border-box;
+    padding-left: 39px;
+  }
+  footer button {
+    left: 280px;
+    bottom: 61px;
+  }
+}/*# sourceMappingURL=tablet.css.map */
