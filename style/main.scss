@@ -35,6 +35,12 @@ nav{
     &:focus{
         outline: none;
     }
+    &.location{
+        display: none;
+    }
+    }
+    .check{
+        display: none;
     }
     a{
         position: absolute;
@@ -85,7 +91,7 @@ nav{
             border-radius: 10px;
             margin-bottom: 20px;
         }
-    h2{
+    h3{
         margin: 15px 0;
         color: $midnight;
         

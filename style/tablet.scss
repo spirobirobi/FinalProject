@@ -1,0 +1,83 @@
+@import "colors";
+@import "typeography";
+@media screen and (min-width:370px) and (max-width:768px) {
+
+    header{
+        background-image: url(/assets/tablet/bg-pattern-header.svg);
+        width: 768px;
+        height: 160px;
+    }
+    nav{
+        width: 689px;
+        height: 80px;
+        display: flex;
+        a{
+            display: none;
+        }
+       input{
+        &.location{
+            display: block;
+        }
+       }
+       .check{
+       display: flex;
+       align-items: center;
+       
+
+        input{
+            width: 24px;
+            height: 24px;
+            margin: 0;
+            position: relative;
+            left: 90px;
+        }
+        h4{
+            color: $midnight;
+            width: 68px;
+            height: 16px;
+            position: relative;
+            left: 100px;
+        }
+        button{
+            width: 80px;
+            height: 48px;
+            background-color: $violet;
+            color: $white;
+            border: 0;
+            border-radius: 6px;
+            position: relative;
+            left: 125px;
+            
+        }
+       }
+    }
+    .content{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 56px;
+        
+        
+        gap: 11px;
+        
+        .box{
+            width: 339px;
+            height: 253px;
+            box-sizing: border-box;
+            padding-left: 39px;
+           
+            
+           
+            
+        }
+       
+    }
+    footer{
+        button{
+            left: 280px;
+            bottom: 61px;
+        }
+    }
+
+
+}
