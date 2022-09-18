@@ -1,0 +1,99 @@
+@import "colors";
+@import "typeography";
+@media screen and (min-width:769px){
+header{
+    width: 100%;
+    height: 162px;
+    background-image: url(/assets/desktop/bg-pattern-header.svg);
+    background-repeat: no-repeat;
+    a{
+        position: relative;
+        left: 165px;
+        top: 44px;
+    }
+}
+nav{
+    width: 1110px;
+    height: 80px;
+    position: absolute;
+    left: 165px;
+    top: 120px;
+    
+
+   
+    a{
+        display: none;
+    }
+   input{
+       width: 346px;
+    &.location{
+        display: block;
+       
+    }
+   }
+   .check{
+   display: flex;
+   align-items: center;
+   width: 346px;
+   
+
+    input{
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        position: relative;
+        left: 90px;
+    }
+    h4{
+        color: $midnight;
+        width: 68px;
+        height: 16px;
+        position: relative;
+        left: 100px;
+    }
+    button{
+        width: 123px;
+        height: 48px;
+        background-color: $violet;
+        color: $white;
+        border: 0;
+        border-radius: 6px;
+        position: relative;
+        left: 135px;
+        
+    }
+   }
+}
+.content{
+        
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 56px;
+    width: 1110px;
+    padding-left: 165px;
+    margin-top: 80px;
+    
+    
+    gap: 11px;
+    
+    .box{
+        width: 339px;
+        height: 253px;
+        box-sizing: border-box;
+        padding-left: 39px;
+       
+        
+       
+        
+    }
+   
+}
+footer{
+    button{
+        left: 649px;
+
+
+    }
+}
+
+}
