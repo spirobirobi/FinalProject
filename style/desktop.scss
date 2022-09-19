@@ -1,14 +1,19 @@
 @import "colors";
 @import "typeography";
 @media screen and (min-width:769px){
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+  }
 header{
     width: 100%;
-    height: 162px;
+    height: 150px;
     background-image: url(/assets/desktop/bg-pattern-header.svg);
-    background-repeat: no-repeat;
+    background-size: cover;
     a{
         position: relative;
-        left: 165px;
+        left: 105px;
         top: 44px;
     }
 }
@@ -16,7 +21,7 @@ nav{
     width: 1110px;
     height: 80px;
     position: absolute;
-    left: 165px;
+    left: 465px;
     top: 120px;
     
 
@@ -26,15 +31,18 @@ nav{
     }
    input{
        width: 346px;
+       border-right: 1px solid $grey;
     &.location{
         display: block;
+        width: 346px;
+        border-right: 1px solid $grey;
        
     }
    }
    .check{
    display: flex;
    align-items: center;
-   width: 346px;
+   width: 395px;
    
 
     input{
@@ -42,14 +50,14 @@ nav{
         height: 24px;
         margin: 0;
         position: relative;
-        left: 90px;
+        left: 50px;
     }
     h4{
         color: $midnight;
         width: 68px;
         height: 16px;
         position: relative;
-        left: 100px;
+        left: 60px;
     }
     button{
         width: 123px;
@@ -70,7 +78,7 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 56px;
     width: 1110px;
-    padding-left: 165px;
+    padding-left: 465px;
     margin-top: 80px;
     
     
@@ -81,6 +89,7 @@ nav{
         height: 253px;
         box-sizing: border-box;
         padding-left: 39px;
+      
        
         
        
@@ -90,7 +99,7 @@ nav{
 }
 footer{
     button{
-        left: 649px;
+        left: 47%;
 
 
     }
