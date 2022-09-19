@@ -35,22 +35,27 @@ button {
 }
 
 @media screen and (min-width: 769px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   header {
     width: 100%;
-    height: 162px;
+    height: 150px;
     background-image: url(/assets/desktop/bg-pattern-header.svg);
-    background-repeat: no-repeat;
+    background-size: cover;
   }
   header a {
     position: relative;
-    left: 165px;
+    left: 105px;
     top: 44px;
   }
   nav {
     width: 1110px;
     height: 80px;
     position: absolute;
-    left: 165px;
+    left: 465px;
     top: 120px;
   }
   nav a {
@@ -58,28 +63,31 @@ button {
   }
   nav input {
     width: 346px;
+    border-right: 1px solid #9DAEC2;
   }
   nav input.location {
     display: block;
+    width: 346px;
+    border-right: 1px solid #9DAEC2;
   }
   nav .check {
     display: flex;
     align-items: center;
-    width: 346px;
+    width: 395px;
   }
   nav .check input {
     width: 24px;
     height: 24px;
     margin: 0;
     position: relative;
-    left: 90px;
+    left: 50px;
   }
   nav .check h4 {
     color: #121721;
     width: 68px;
     height: 16px;
     position: relative;
-    left: 100px;
+    left: 60px;
   }
   nav .check button {
     width: 123px;
@@ -96,7 +104,7 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 56px;
     width: 1110px;
-    padding-left: 165px;
+    padding-left: 465px;
     margin-top: 80px;
     gap: 11px;
   }
@@ -107,6 +115,6 @@ button {
     padding-left: 39px;
   }
   footer button {
-    left: 649px;
+    left: 47%;
   }
 }/*# sourceMappingURL=desktop.css.map */
