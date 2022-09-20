@@ -21,8 +21,7 @@ nav{
     width: 1110px;
     height: 80px;
     position: absolute;
-    left: 465px;
-    top: 120px;
+    left: 17%;
     
 
    
@@ -78,8 +77,9 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 56px;
     width: 1110px;
-    padding-left: 465px;
-    margin-top: 80px;
+    position: relative;
+    left: 17%;
+   
     
     
     gap: 11px;
