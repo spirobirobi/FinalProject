@@ -62,4 +62,25 @@
 
         }
     }
+    footer{
+        position: relative;
+        .text-footer{
+            display: block;
+            text-align: left;
+            h3{
+                margin:0;
+            }
+            p{
+                margin: 0;
+            }
+        }
+        button{
+            width: 141px;
+            height: 48px;
+           position: relative;
+           bottom: 43px;
+           left: 250px;
+           
+        }
+    }
 }
