@@ -16,6 +16,8 @@ header{
         top: 29px;
         left: 24px;
     }
+    
+
 }
 .container{
     width: 327px;
@@ -44,9 +46,21 @@ header{
        color: $grey;
        margin-bottom: 24px;
     }
-    h4{
-        color: $violet;
+    .company{
+        width: 147px;
+        height: 48px;
+        background-color:$lightgrey;
+        color:$violet ;
+        border:0;
+        &:hover{
+            background-color: $lightviolet;
+            color: $white;
+        }
+        
+        
+        
     }
+
 }
 .content{
     text-align: left;
