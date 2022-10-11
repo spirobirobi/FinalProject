@@ -23,15 +23,32 @@ nav{
     position: absolute;
     left: 465px;
     top: 120px;
-    
+    #naviSearch{
+        display: block;
+        width: 24px;
+        height: 24px;
+        position:absolute;
+        top: 28px;
+        left: 10px;
+       }
+       #naviLocation{
+        display: block;
+        width: 17px;
+        height: 24px;
+        position:relative;
+        top: 28px;
+        left: 40px;
+        
 
-   
+       }
     a{
         display: none;
     }
    input{
        width: 346px;
        border-right: 1px solid $grey;
+       position: relative;
+       left: 20px;
     &.location{
         display: block;
         width: 346px;
@@ -51,6 +68,8 @@ nav{
         margin: 0;
         position: relative;
         left: 50px;
+       
+      
     }
     h4{
         color: $midnight;

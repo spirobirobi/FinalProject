@@ -62,6 +62,12 @@ nav {
   display: flex;
   border-radius: 10px;
 }
+nav #naviSearch {
+  display: none;
+}
+nav #naviLocation {
+  display: none;
+}
 nav input {
   height: 80px;
   width: 160px;
