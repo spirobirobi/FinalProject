@@ -57,6 +57,22 @@ button {
     position: absolute;
     left: 17%;
   }
+  nav #navSearch {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 28px;
+    left: 10px;
+  }
+  nav #navLocation {
+    display: block;
+    width: 17px;
+    height: 24px;
+    position: relative;
+    top: 28px;
+    left: 10px;
+  }
   nav a {
     display: none;
   }
