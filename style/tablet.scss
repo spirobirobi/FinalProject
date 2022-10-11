@@ -11,42 +11,17 @@
         width: 689px;
         height: 80px;
         display: flex;
-        margin-left: 30px;
-       #naviSearch{
-        display: block;
-        width: 24px;
-        height: 24px;
-        position:absolute;
-        top: 28px;
-        left: 20px;
-       }
-       #naviLocation{
-        display: block;
-        width: 17px;
-        height: 24px;
-        position:relative;
-        top: 28px;
-        left: 30px;
-       
-
-       }
         a{
             display: none;
         }
        input{
-        position: relative;
-        left: 25px;
         &.location{
             display: block;
-            position: relative;
-            left: 20px;
         }
        }
        .check{
        display: flex;
        align-items: center;
-       
-       
        
 
         input{
@@ -71,7 +46,7 @@
             border: 0;
             border-radius: 6px;
             position: relative;
-            left: 120px;
+            left: 125px;
             
         }
        }
