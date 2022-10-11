@@ -85,10 +85,6 @@ header a {
   color: #5964e0;
   border: 0;
 }
-.container .company:hover {
-  background-color: #939BF4;
-  color: #FFFFFF;
-}
 
 .content {
   text-align: left;
