@@ -21,24 +21,7 @@ nav{
     width: 1110px;
     height: 80px;
     position: absolute;
-    left: 465px;
-    top: 120px;
-    #naviSearch{
-        display: block;
-        width: 24px;
-        height: 24px;
-        position:absolute;
-        top: 28px;
-        left: 10px;
-       }
-       #naviLocation{
-        display: block;
-        width: 17px;
-        height: 24px;
-        position:relative;
-        top: 28px;
-        left: 40px;
-        
+
 
        }
     a{
@@ -98,8 +81,9 @@ nav{
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 56px;
     width: 1110px;
-    padding-left: 465px;
-    margin-top: 80px;
+    position: relative;
+    left: 17%;
+   
     
     
     gap: 11px;
