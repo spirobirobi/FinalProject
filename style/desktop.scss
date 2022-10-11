@@ -21,16 +21,17 @@ nav{
     width: 1110px;
     height: 80px;
     position: absolute;
-    left: 17%;
-    
 
-   
+
+       }
     a{
         display: none;
     }
    input{
        width: 346px;
        border-right: 1px solid $grey;
+       position: relative;
+       left: 20px;
     &.location{
         display: block;
         width: 346px;
@@ -43,6 +44,7 @@ nav{
    align-items: center;
    width: 395px;
    
+   
 
     input{
         width: 24px;
@@ -50,6 +52,8 @@ nav{
         margin: 0;
         position: relative;
         left: 50px;
+       
+      
     }
     h4{
         color: $midnight;

@@ -57,12 +57,30 @@ button {
     position: absolute;
     left: 17%;
   }
+  nav #naviSearch {
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 28px;
+    left: 10px;
+  }
+  nav #naviLocation {
+    display: block;
+    width: 17px;
+    height: 24px;
+    position: relative;
+    top: 28px;
+    left: 40px;
+  }
   nav a {
     display: none;
   }
   nav input {
     width: 346px;
     border-right: 1px solid #9DAEC2;
+    position: relative;
+    left: 20px;
   }
   nav input.location {
     display: block;
