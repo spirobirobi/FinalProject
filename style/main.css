@@ -135,6 +135,11 @@ nav .search img {
   margin: 15px 0;
   color: #121721;
 }
+.content .box .itm {
+  position: relative;
+  bottom: 20px;
+  left: 65px;
+}
 
 footer {
   margin-top: 32px;
