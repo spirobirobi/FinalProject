@@ -160,12 +160,21 @@ function createItem(object){
     return item;
 
 }
-function populate(){
+function populate(countItem,){
     const content =document.getElementById('content');
-    for(let i=0;i<list.length;i++)
+    for(let i=0;i<countItem;i++)
     {
         const item1=createItem(list[i]);
       content.appendChild(item1);
     }
 }
-populate();
+function clean(){
+    const content =document.getElementById('content');
+    content.textContent='';
+}
+populate(6);
+const footerButton=document.getElementById('footerButton');
+footerButton.addEventListener('click',()=>{
+    clean();
+    populate(list.length);
+})
