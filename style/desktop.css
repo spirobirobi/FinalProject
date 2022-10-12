@@ -41,7 +41,7 @@ button {
     box-sizing: border-box;
   }
   header {
-    width: 100%;
+    width: 1440px;
     height: 150px;
     background-image: url(/assets/desktop/bg-pattern-header.svg);
     background-size: cover;
