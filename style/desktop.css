@@ -55,7 +55,8 @@ button {
     width: 1110px;
     height: 80px;
     position: absolute;
-    left: 17%;
+    left: 465px;
+    top: 120px;
   }
   nav #navSearch {
     display: block;
@@ -119,8 +120,8 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 56px;
     width: 1110px;
-    position: relative;
-    left: 17%;
+    padding-left: 465px;
+    margin-top: 80px;
     gap: 11px;
   }
   .content .box {
