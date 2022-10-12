@@ -27,6 +27,12 @@ nav{
     background-color: $white;
     display: flex;
     border-radius: 10px;
+    #navSearch{
+        display: none;
+    }
+    #navLocation{
+        display:none;
+    }
     input{
         height:80px ;
         width: 160px;
