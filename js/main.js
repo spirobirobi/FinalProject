@@ -182,11 +182,17 @@ footerButton.addEventListener('click',()=>{
 const headerButton=document.getElementById('headerButton');
 headerButton.addEventListener('click',()=>{
     const inputSearch=document.getElementById('search');
-    const filter=list.filter((obj)=>{
+    const filter1=list.filter((obj)=>{
         return obj.post.toLowerCase().includes(inputSearch.value.toLowerCase())
     });
     clean();
-    populate(filter.length,filter);
+    populate(filter1.length,filter1);
+    const filter2=list.filter((obj)=>{
+        return obj.title.toLowerCase().includes(inputSearch.value.toLowerCase())
+    });
+    clean();
+    populate(filter2.length,filter2);
+    
     
   
 })
