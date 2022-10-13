@@ -160,11 +160,11 @@ function createItem(object){
     return item;
 
 }
-function populate(countItem,){
+function populate(countItem,lista){
     const content =document.getElementById('content');
     for(let i=0;i<countItem;i++)
     {
-        const item1=createItem(list[i]);
+        const item1=createItem(lista[i]);
       content.appendChild(item1);
     }
 }
@@ -172,9 +172,24 @@ function clean(){
     const content =document.getElementById('content');
     content.textContent='';
 }
-populate(6);
+populate(list.length/2,list);
 const footerButton=document.getElementById('footerButton');
 footerButton.addEventListener('click',()=>{
     clean();
-    populate(list.length);
+    populate(list.length,list);
 })
+
+const headerButton=document.getElementById('headerButton');
+headerButton.addEventListener('click',()=>{
+    const inputSearch=document.getElementById('search');
+    const filter=list.filter((obj)=>{
+        return obj.post.toLowerCase().includes(inputSearch.value.toLowerCase())
+    });
+    clean();
+    populate(filter.length,filter);
+    
+  
+})
+
+
+
