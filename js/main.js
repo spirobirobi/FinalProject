@@ -126,7 +126,7 @@ const list= [
         img:'/assets/logos/TypeMaster.svg',
         alt:'typemaster',
         location:'United Kingdom',
-        post:'App & Website Designer',
+        post:'Technical Lead Engineer',
         type:'• Part Time ',
         time:'4d ago'
        
@@ -182,20 +182,39 @@ footerButton.addEventListener('click',()=>{
 const headerButton=document.getElementById('headerButton');
 headerButton.addEventListener('click',()=>{
     const inputSearch=document.getElementById('search');
-    const filter1=list.filter((obj)=>{
-        return obj.post.toLowerCase().includes(inputSearch.value.toLowerCase())
+    const inputLocation=document.getElementById('inputLocation');
+    const filter=list.filter((obj)=>{
+        return obj.post.toLowerCase().includes(inputSearch.value.toLowerCase()) && obj.location.toLowerCase().includes(inputLocation.value.toLowerCase());
     });
-    clean();
-    populate(filter1.length,filter1);
-    const filter2=list.filter((obj)=>{
-        return obj.title.toLowerCase().includes(inputSearch.value.toLowerCase())
-    });
-    clean();
-    populate(filter2.length,filter2);
     
-    
-  
+    clean();
+    populate(filter.length,filter);
+   
+   
 })
+let valoare=0;
+const navCheck=document.getElementById('navCheck');
+navCheck.addEventListener('change',()=>{
+    valoare=valoare+1;
+    const filter=list.filter((obj)=>{
+        return obj.type.toLowerCase().includes('full');
+       
+    })
+    if(valoare%2===0)
+    {
+        clean();
+        populate(list.length/2,list);
+    }
+    else if(valoare%2===1){
+        clean();
+        populate(filter.length,filter);
+
+    }
+    
+    console.log(valoare);
+    
+})
+
 
 
 
