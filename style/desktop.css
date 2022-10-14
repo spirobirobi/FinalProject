@@ -96,6 +96,7 @@ button {
     margin: 0;
     position: relative;
     left: 50px;
+    cursor: pointer;
   }
   nav .check h4 {
     color: #121721;
@@ -113,6 +114,7 @@ button {
     border-radius: 6px;
     position: relative;
     left: 135px;
+    cursor: pointer;
   }
   .content {
     display: grid;
