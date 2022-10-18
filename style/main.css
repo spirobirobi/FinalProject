@@ -109,6 +109,7 @@ nav .search img {
 }
 .content .box {
   padding-left: 32px;
+  cursor: pointer;
 }
 .content .box a {
   text-decoration: none;
