@@ -187,33 +187,33 @@ headerButton.addEventListener('click',()=>{
         return obj.post.toLowerCase().includes(inputSearch.value.toLowerCase()) && obj.location.toLowerCase().includes(inputLocation.value.toLowerCase());
     });
     
+    
     clean();
-    populate(filter.length,filter);
+    populate(filter.length,filter);    
+    const navCheck=document.getElementById('navCheck');
+navCheck.addEventListener('change',(e)=>{
    
-   
-})
-let valoare=0;
-const navCheck=document.getElementById('navCheck');
-navCheck.addEventListener('change',()=>{
-    valoare=valoare+1;
-    const filter=list.filter((obj)=>{
-        return obj.type.toLowerCase().includes('full');
+    const filter1=list.filter((obj)=>{
+        return obj.type.toLowerCase().includes('full') && obj.post.toLowerCase().includes(inputSearch.value.toLowerCase()) && obj.location.toLowerCase().includes(inputLocation.value.toLowerCase());
        
     })
-    if(valoare%2===0)
+    if(e.target.checked)
     {
         clean();
-        populate(list.length/2,list);
+        populate(filter1.length,filter1);
     }
-    else if(valoare%2===1){
+    else {
         clean();
-        populate(filter.length,filter);
-
+        populate(list.length/2,list);
+        
     }
-    
-    console.log(valoare);
     
 })
+   
+})
+
+
+
 
 
 
