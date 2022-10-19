@@ -8,16 +8,17 @@
     <link rel='stylesheet' type='text/css' href='/style/main2.css'>
     <link rel='stylesheet' type='text/css' href='/style/tablet2.css' media="screen and (min-width:370px) and (max-width:768px)">
     <link rel='stylesheet' type='text/css' href='/style/desktop2.css' media="screen and (min-width:769px)">
+    <script async src="/js/pag.js"></script>
 </head>
 <body>
    <header>
     <a href="index.html"><img src="/assets/desktop/logo.svg" alt="logo"></a>    
    </header>
    <div class="container">
-    <img src="/assets/logos/scott.svg" alt="scoot">
+    <img id='headerImg'src="" alt="scoot">
    <div class="text_header">
-    <h3>Scoot</h3>
-    <p>scoot.com</p>
+    <h3 id="company"></h3>
+    <p id="site"></p>
     <button class="company">Company Site</button>
    </div>
    
@@ -26,9 +27,9 @@
 <div class="content">
 
 <div class="short">
-    <p>5h ago • Full time</p>
-    <h3>Senior Software Engineer</h2>
-    <h4>United Kingdom</h4>
+    <p id="time"></p>
+    <h3 id="post"></h3>
+    <h4 id="location"></h4>
 </div>
 <button>Apply Now</button>
 <div class="text">
