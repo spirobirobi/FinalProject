@@ -1,13 +1,14 @@
 const list= [
     {
         id:'1',
-        title:'scoot',
+        title:'Scoot',
         img:'/assets/logos/scott.svg',
         alt:'scoot',
         location:'United Kingdom',
         post:'Senior Software Engineer',
         type:'Full time',
-        time:'5h ago •'
+        time:'5h ago •',
+        site:'scoot.com'
        
     },
     {
@@ -137,29 +138,33 @@ const list= [
 function createItem(object){
     const item=document.createElement('div');
     item.classList.add('box');
+    const anchor=document.createElement('a');
+    anchor.setAttribute('href','./pag.html?id='+object.id)
+    item.appendChild(anchor);
     const img=document.createElement('img');
     img.setAttribute('src',object.img);
     img.setAttribute('alt',object.alt);
-    item.appendChild(img);
+    anchor.appendChild(img);
     const time1=document.createElement('p');
     time1.textContent=object.time;
-    item.appendChild(time1);
+    anchor.appendChild(time1);
     const time2=document.createElement('p');
     time2.classList.add('itm');
     time2.textContent=object.type;
-    item.appendChild(time2);
+    anchor.appendChild(time2);
     const post=document.createElement('h3');
     post.textContent=object.post;
-    item.appendChild(post);
+    anchor.appendChild(post);
     const company=document.createElement('p');
     company.textContent=object.title;
-    item.appendChild(company);
+    anchor.appendChild(company);
     const location=document.createElement('h4');
     location.textContent=object.location;
-    item.appendChild(location);
+    anchor.appendChild(location);
     return item;
 
 }
+localStorage.setItem('list',JSON.stringify(list));
 function populate(countItem,lista){
     const content =document.getElementById('content');
     for(let i=0;i<countItem;i++)
