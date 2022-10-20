@@ -1,0 +1,34 @@
+@import "colors";
+@import "typeography";
+@media screen and (min-width:769px){
+
+    header{
+        width: 100%;
+        height: 150px;
+        background-image: url(/assets/desktop/bg-pattern-header.svg);
+        background-size: cover;}
+
+
+}
+.container{
+    left: 35%;
+    width: 600px;
+    height: 400px;
+    form{
+        h1{
+            left: 230px;
+        }
+        input{
+            display: flex;
+            width:500px ;
+            left:40px;
+        }
+        label{
+                left: 40px;
+        }
+        button{
+            left: 230px;
+            top: -10px;
+        }
+    }
+}

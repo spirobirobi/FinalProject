@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+input {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+label {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    width: 100%;
+    height: 150px;
+    background-image: url(/assets/desktop/bg-pattern-header.svg);
+    background-size: cover;
+  }
+}
+.container {
+  left: 35%;
+  width: 600px;
+  height: 400px;
+}
+.container form h1 {
+  left: 230px;
+}
+.container form input {
+  display: flex;
+  width: 500px;
+  left: 40px;
+}
+.container form label {
+  left: 40px;
+}
+.container form button {
+  left: 230px;
+  top: -10px;
+}/*# sourceMappingURL=registerDesktop.css.map */

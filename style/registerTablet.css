@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 28px;
+}
+
+h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+input {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+button {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+label {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 370px) and (max-width: 768px) {
+  header {
+    background-image: url(/assets/tablet/bg-pattern-header.svg);
+    width: 768px;
+    height: 160px;
+  }
+  .container {
+    left: 100px;
+  }
+}/*# sourceMappingURL=registerTablet.css.map */
