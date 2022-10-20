@@ -34,6 +34,11 @@ button {
   font-size: 16px;
 }
 
+label {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
 @media screen and (min-width: 370px) and (max-width: 768px) {
   header {
     background-image: url(/assets/tablet/bg-pattern-header.svg);

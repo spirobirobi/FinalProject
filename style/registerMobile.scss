@@ -1,0 +1,83 @@
+@import "colors";
+@import "typeography";
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+body{
+    background-color: $lightgrey;
+}
+header{
+    width:375px;
+    height: 136px;
+    background-image: url(/assets/mobile/bg-pattern-header.svg);
+    position: relative;
+    img{
+        position: relative;
+        top: 29px;
+        left: 24px;
+    }
+}
+.container{
+    position: relative;
+    background-color: $violet;
+    top: 20vh;
+    left: 0px;
+    border: 1px solid $midnight;
+    border-radius: 5px;
+    height: 350px;
+    width:375px;
+    form{
+        h1{
+            color: $white;
+            position: relative;
+            left: 33%;
+        }
+        label{
+            color: $white;
+            position: relative;
+            top: 5px;
+            left: 20px;
+            
+        }
+        input{
+            margin-top: 10px;
+            width:350px;
+            height: 30px;
+            border: 0;
+            border-radius: 5px;
+            position: relative;
+            left: 5px;
+            &:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+    outline: none;
+}
+        }
+        button{
+            position: relative;
+            left: 34%;
+            top: 15px;
+            width: 120px;
+            height: 48px;
+            color: $violet;
+            font-size: bold;
+            background-color: $lightgrey;
+            border: 0;
+            border-radius: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: $lightviolet;
+                color: $midnight;
+            }
+
+            
+        }
+        
+        
+    }
+    
+}
