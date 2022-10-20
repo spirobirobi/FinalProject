@@ -52,22 +52,22 @@ label {
   width: 600px;
   height: 400px;
 }
-.container form h1 {
+.container h1 {
   left: 230px;
 }
-.container form input {
+.container input {
   display: flex;
   width: 500px;
   left: 40px;
 }
-.container form label {
+.container label {
   left: 40px;
 }
-.container form button {
+.container button {
   left: 230px;
   top: -10px;
 }
-.container form a {
+.container a {
   top: -10px;
   left: 300px;
-}/*# sourceMappingURL=registerDesktop.css.map */
+}/*# sourceMappingURL=logDesktop.css.map */

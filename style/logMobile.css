@@ -71,18 +71,18 @@ header img {
   height: 350px;
   width: 375px;
 }
-.container form h1 {
+.container h1 {
   color: #FFFFFF;
   position: relative;
   left: 33%;
 }
-.container form label {
+.container label {
   color: #FFFFFF;
   position: relative;
   top: 5px;
   left: 20px;
 }
-.container form input {
+.container input {
   margin-top: 10px;
   width: 350px;
   height: 30px;
@@ -91,13 +91,13 @@ header img {
   position: relative;
   left: 5px;
 }
-.container form input:focus,
-.container form input select:focus,
-.container form input textarea:focus,
-.container form input button:focus {
+.container input:focus,
+.container input select:focus,
+.container input textarea:focus,
+.container input button:focus {
   outline: none;
 }
-.container form button {
+.container button {
   position: relative;
   left: 34%;
   top: 15px;
@@ -110,13 +110,13 @@ header img {
   border-radius: 5px;
   cursor: pointer;
 }
-.container form button:hover {
+.container button:hover {
   background-color: #939BF4;
   color: #121721;
 }
-.container form a {
+.container a {
   position: relative;
   left: 127px;
   top: 20px;
   color: white;
-}/*# sourceMappingURL=registerMobile.css.map */
+}/*# sourceMappingURL=logMobile.css.map */

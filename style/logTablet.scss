@@ -1,0 +1,15 @@
+@import "colors";
+@import "typeography";
+@media screen and (min-width:370px) and (max-width:768px) {
+
+header{
+    background-image: url(/assets/tablet/bg-pattern-header.svg);
+    width: 768px;
+        height: 160px;
+}
+.container{
+    left: 100px;
+}
+
+
+}
