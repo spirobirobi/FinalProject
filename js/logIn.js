@@ -11,5 +11,14 @@ button.addEventListener('click',()=>{
         location.replace("index.html")
         
     }
+    else if(user.value !== username &&password.value != password ){
+        alert('Username and Password are incorect');
+    }
+    else if(user.value !== username){
+        alert('Username incorect');
+    }
+    else if(password.value != password){
+        alert('Password incorect');
+    }
     
 })

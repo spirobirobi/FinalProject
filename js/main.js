@@ -54,6 +54,9 @@ fetch('./data.json')
                 clean();
                 populate(json.length, json);
             }
+            else{
+                alert('nothing new to show');
+            }
 
 
 
