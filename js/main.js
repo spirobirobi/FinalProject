@@ -40,11 +40,31 @@ fetch('./data.json')
             content.textContent = '';
         }
         populate(6, json);
+        let contor = 0;
         const footerButton = document.getElementById('footerButton');
         footerButton.addEventListener('click', () => {
-            clean();
-            populate(json.length, json);
+
+            contor++;
+
+            if (contor === 1) {
+                clean();
+                populate(json.length - 3, json);
+            }
+            else if (contor === 2) {
+                clean();
+                populate(json.length, json);
+            }
+
+
+
+
+
+
+
+
         })
+
+
 
         const headerButton = document.getElementById('headerButton');
         headerButton.addEventListener('click', () => {
