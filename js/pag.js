@@ -48,7 +48,12 @@ fetch('./data.json')
     const footerText=document.getElementById('footerPos');
     footerText.textContent=found.position;
     
-    
+    const cmpSite=document.getElementById('company1');
+   cmpSite.addEventListener('click',()=>{
+    location.replace(found.website);  
+   })
+
+ 
 })
 
 

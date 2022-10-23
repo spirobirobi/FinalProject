@@ -89,6 +89,7 @@ header a {
   background-color: #F4F6F8;
   color: #5964e0;
   border: 0;
+  cursor: pointer;
 }
 
 .content {
@@ -115,6 +116,7 @@ header a {
   border: 0;
   border-radius: 10px;
   margin-left: 25px;
+  cursor: pointer;
 }
 .content .text p {
   margin: 25px;
@@ -165,6 +167,7 @@ footer button {
   border: 0;
   border-radius: 10px;
   margin-bottom: 23px;
+  cursor: pointer;
 }
 footer .text-footer {
   display: none;
