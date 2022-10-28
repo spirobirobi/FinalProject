@@ -52,8 +52,44 @@ fetch('./data.json')
    cmpSite.addEventListener('click',()=>{
     location.replace(found.website);  
    })
+   
+const butt1=document.getElementById('contentButton');
+let click=0;
+butt1.addEventListener('click',()=>{
+    click++;
+    if(click===1){
+     
+        let existingEntries = JSON.parse(localStorage.getItem("allEntries"));
+        if(existingEntries == null) existingEntries = [];
+         existingEntries.push(found.id);
+     localStorage.setItem("allEntries", JSON.stringify(existingEntries));
+     
 
- 
+  
+    }  
+    else{
+        alert('already applied');
+    }
+})
+const butt2=document.getElementById('footerButton');
+    butt2.addEventListener('click',()=>{
+        click++;
+        if(click===1){
+         
+            let existingEntries = JSON.parse(localStorage.getItem("allEntries"));
+            if(existingEntries == null) existingEntries = [];
+             existingEntries.push(found.id);
+         localStorage.setItem("allEntries", JSON.stringify(existingEntries));
+         
+    
+      
+        }  
+        else{
+            alert('already applied');
+        }
+    })
+   
+
 })
 
 

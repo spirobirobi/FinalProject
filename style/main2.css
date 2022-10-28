@@ -91,6 +91,9 @@ header a {
   border: 0;
   cursor: pointer;
 }
+.container .company:hover {
+  background-color: #939BF4;
+}
 
 .content {
   text-align: left;
@@ -117,6 +120,9 @@ header a {
   border-radius: 10px;
   margin-left: 25px;
   cursor: pointer;
+}
+.content button:hover {
+  background-color: #939BF4;
 }
 .content .text p {
   margin: 25px;
@@ -168,6 +174,9 @@ footer button {
   border-radius: 10px;
   margin-bottom: 23px;
   cursor: pointer;
+}
+footer button:hover {
+  background-color: #939BF4;
 }
 footer .text-footer {
   display: none;
