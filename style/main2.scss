@@ -53,6 +53,10 @@ header{
         color:$violet ;
         border:0;
         cursor: pointer;
+        &:hover{
+            background-color: $lightviolet;
+           
+        }
         
         
         
@@ -84,6 +88,9 @@ header{
         border-radius: 10px;
         margin-left: 25px;
         cursor: pointer;
+        &:hover{
+            background-color: $lightviolet;
+        }
     }
     .text{
             p{
@@ -149,6 +156,9 @@ header{
         border-radius: 10px;
         margin-bottom: 23px;
         cursor: pointer;
+        &:hover{
+            background-color: $lightviolet;
+        }
         
         }
         .text-footer{
