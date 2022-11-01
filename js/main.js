@@ -106,6 +106,7 @@ fetch('./data.json')
                 populate(filter3.length, filter3);
 
             }
+            footerButton.style.display='none';
 
 
         })
@@ -139,6 +140,7 @@ fetch('./data.json')
             }
             clean();
             populate(app.length,app);
+            footerButton.style.display='none';
         })
 
 
