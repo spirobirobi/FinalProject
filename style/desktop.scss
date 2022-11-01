@@ -121,9 +121,10 @@ nav{
     width: 1110px;
     padding-left: 20%;
     margin-top: 80px;
-    
-    
     gap: 11px;
+    #filtersMobile{
+        display: none;
+    }
     
     .box{
         width: 339px;

@@ -97,9 +97,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding-bottom: 56px;
-        
-        
         gap: 11px;
+        #filtersMobile{
+            display: none;
+        }
         
         .box{
             width: 339px;

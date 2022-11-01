@@ -150,6 +150,9 @@ label {
     margin-top: 80px;
     gap: 11px;
   }
+  .content #filtersMobile {
+    display: none;
+  }
   .content .box {
     width: 339px;
     height: 253px;

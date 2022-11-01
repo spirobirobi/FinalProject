@@ -90,11 +90,68 @@ nav{
     }
     
 }
+#filtersMobile{
+    position: absolute;
+width: 327px;
+height: 217px;
+left: 24px;
+top: 225px;
+display: none;
+border: 1px solid $midnight;
+background-color: $white;
+#mobileLocation{
+    width: 250px;
+    height: 72px;
+    position: relative;
+    border: 0;
+    left: 40px;
+    &:focus{
+        outline: none;
+    }
+    
+    
+    
+    
+
+}
+#mobileNavLocation{
+    position: relative;
+    bottom: 94px;
+    margin-left: 10px;
+}
+#mobileCheckBox{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 20px;
+    left: 24px;
+}
+h4{
+    position: relative;
+    left: 66px;
+    bottom: 5px;
+    width: 108px;
+}
+#mobileS{
+    position: absolute;
+    width: 279px;
+    height: 48px;
+    background-color: $violet;
+    border: 0;
+    left: 20px;
+    top: 150px;
+    border-radius: 3px;
+    color: $white;
+}
+
+}
 .content{
+   
     padding-top: 64px;
     display:flex;
     gap: 60px   ;
     flex-direction: column;
+    
     
     .box{
         padding-left: 32px;
