@@ -109,6 +109,37 @@ fetch('./data.json')
 
 
         })
+        const myApplies=document.getElementById('myApplies');
+        const entries1=JSON.parse(localStorage.getItem('allEntries').split(','));
+        
+        const menu=document.getElementById('menu');
+        const box1=document.getElementById('box');
+        click=0;
+        menu.addEventListener('click',()=>{
+            click++;
+            
+            if(click%2==1){
+            box1.style.display='block';
+            }
+            else{
+                box1.style.display='none';
+            }
+            
+        })
+        box1.addEventListener('click',()=>{
+            let app=[];
+            for(let i=0;i<entries1.length;i++){
+             
+             for(let j=0;j<json.length;j++){
+                 if(entries1[i]===json[j].id){
+                     app.push(json[j]);
+                 }
+             }
+ 
+            }
+            clean();
+            populate(app.length,app);
+        })
 
 
     });

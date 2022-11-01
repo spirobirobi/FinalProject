@@ -54,39 +54,35 @@ fetch('./data.json')
    })
    
 const butt1=document.getElementById('contentButton');
-let click=0;
 butt1.addEventListener('click',()=>{
-    click++;
-    if(click===1){
+   
+    
      
         let existingEntries = JSON.parse(localStorage.getItem("allEntries"));
         if(existingEntries == null) existingEntries = [];
-         existingEntries.push(found.id);
-     localStorage.setItem("allEntries", JSON.stringify(existingEntries));
-     
-
-  
-    }  
+    
+    if(!existingEntries.includes(found.id)){
+        existingEntries.push(found.id);
+    }
     else{
         alert('already applied');
     }
+    localStorage.setItem("allEntries", JSON.stringify(existingEntries));
+  
+   
 })
 const butt2=document.getElementById('footerButton');
     butt2.addEventListener('click',()=>{
-        click++;
-        if(click===1){
-         
-            let existingEntries = JSON.parse(localStorage.getItem("allEntries"));
-            if(existingEntries == null) existingEntries = [];
-             existingEntries.push(found.id);
-         localStorage.setItem("allEntries", JSON.stringify(existingEntries));
-         
+        let existingEntries = JSON.parse(localStorage.getItem("allEntries"));
+        if(existingEntries == null) existingEntries = [];
     
-      
-        }  
-        else{
-            alert('already applied');
-        }
+    if(!existingEntries.includes(found.id)){
+        existingEntries.push(found.id);
+    }
+    else{
+        alert('already applied');
+    }
+    localStorage.setItem("allEntries", JSON.stringify(existingEntries));
     })
    
 
