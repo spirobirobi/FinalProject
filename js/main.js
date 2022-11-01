@@ -142,7 +142,70 @@ fetch('./data.json')
             populate(app.length,app);
             footerButton.style.display='none';
         })
+        
+        const searchMobile=document.getElementById('searchMobile');
+        searchMobile.addEventListener('click',()=>{
+            const inputSearch = document.getElementById('search');
+            const filter = json.filter((obj) => {
+                return obj.position.toLowerCase().includes(inputSearch.value.toLowerCase());
+            });
+            clean();
+            populate(filter.length,filter);
+            footerButton.style.display='none';
+        })
+        const filterMobile=document.getElementById('fliterMobile');
+        let click2=0;
+        filterMobile.addEventListener('click',()=>{
+            const content = document.getElementById('content');
+            const filterMobile=document.getElementById('filtersMobile');
+            click2++;
+            if(click2%2==1){
+                content.style.paddingTop=200;
+                
+            
+                filterMobile.style.display='block';
+               
+            }
+            else{
+                filterMobile.style.display='none';
+            }
+        })
+        const mobileS=document.getElementById('mobileS');
+        mobileS.addEventListener('click',()=>{
+            const textMobile=document.getElementById('mobileLocation');
+            const checkMobile=document.getElementById('mobileCheckBox');
+            const filterMobile=document.getElementById('filtersMobile');
+            
+            filterMobile.style.display='none';
+            footerButton.style.display='none';
+            const filter = json.filter((obj) => {
+                return obj.location.toLowerCase().includes(mobileLocation.value.toLowerCase());
+            });
 
+
+            clean();
+            populate(filter.length, filter);
+
+            if (checkMobile.checked && mobileLocation.value === '') {
+                const filter1 = json.filter((obj) => {
+                    return obj.contract.toLowerCase().includes('full');
+
+
+                })
+                clean();
+                populate(filter1.length, filter1);
+            }
+            else if(checkMobile.checked && mobileLocation.value != '')
+            {
+                const filter3 = json.filter((obj) => {
+                    return obj.contract.toLowerCase().includes('full') && obj.location.toLowerCase().includes(inputLocation.value.toLowerCase());
+                })
+                clean();
+                populate(filter3.length, filter3);
+            }
+                
+        })
+        
 
     });
 

@@ -127,6 +127,56 @@ nav .search img {
   border-radius: 10px;
 }
 
+#filtersMobile {
+  position: absolute;
+  width: 327px;
+  height: 217px;
+  left: 24px;
+  top: 225px;
+  display: none;
+  border: 1px solid #121721;
+  background-color: #FFFFFF;
+}
+#filtersMobile #mobileLocation {
+  width: 250px;
+  height: 72px;
+  position: relative;
+  border: 0;
+  left: 40px;
+}
+#filtersMobile #mobileLocation:focus {
+  outline: none;
+}
+#filtersMobile #mobileNavLocation {
+  position: relative;
+  bottom: 94px;
+  margin-left: 10px;
+}
+#filtersMobile #mobileCheckBox {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 20px;
+  left: 24px;
+}
+#filtersMobile h4 {
+  position: relative;
+  left: 66px;
+  bottom: 5px;
+  width: 108px;
+}
+#filtersMobile #mobileS {
+  position: absolute;
+  width: 279px;
+  height: 48px;
+  background-color: #5964e0;
+  border: 0;
+  left: 20px;
+  top: 150px;
+  border-radius: 3px;
+  color: #FFFFFF;
+}
+
 .content {
   padding-top: 64px;
   display: flex;
