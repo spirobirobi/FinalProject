@@ -16,6 +16,28 @@ header{
         left: 105px;
         top: 44px;
     }
+    #menu{
+        position: relative;
+        left: 85%;
+        top: 30px;
+        color:$white;
+    }
+    #box{
+        width: 100px;
+        height: 100px;
+        
+        position: relative;
+        left: 90%;
+        top: 30px;
+        p{
+            position: relative;
+            top: 30px;
+            cursor: pointer;
+            color: $white;
+        }
+        display: none;
+        
+    }
 }
 nav{
     width: 1110px;

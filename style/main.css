@@ -56,6 +56,27 @@ header a {
   top: 29px;
   left: 24px;
 }
+header #menu {
+  position: relative;
+  left: 50%;
+  top: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+header #box {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 72%;
+  top: 15px;
+  display: none;
+}
+header #box p {
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
 
 nav {
   position: absolute;

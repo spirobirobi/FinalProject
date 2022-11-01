@@ -45,6 +45,26 @@ label {
     width: 768px;
     height: 160px;
   }
+  header #menu {
+    position: relative;
+    left: 68%;
+    top: 25px;
+    color: #FFFFFF;
+  }
+  header #box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 80%;
+    top: 15px;
+    display: none;
+  }
+  header #box p {
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
   nav {
     width: 689px;
     height: 80px;
