@@ -7,10 +7,12 @@
     
 }
 body{
-    background-color: $lightgrey;
+    width: 700px;
+    height: 700px;
 }
+
 header{
-    width:375px;
+    width:100%;
     height: 136px;
     background-image: url(/assets/mobile/bg-pattern-header.svg);
     position: relative;
@@ -24,7 +26,7 @@ header{
     position: relative;
     background-color: $violet;
     top: 20vh;
-    left: 0px;
+    left: 150px;
     border: 1px solid $midnight;
     border-radius: 5px;
     height: 350px;
