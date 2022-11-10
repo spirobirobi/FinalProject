@@ -2,6 +2,10 @@
 @import "typeography";
 @media screen and (min-width:769px){
 
+    body{
+        width: 1450px;
+        height: 1000px;
+    }
     header{
         width: 100%;
         height: 150px;
